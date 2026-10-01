@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="ONG Mãos Dadas - Transformando vidas através do voluntariado e da solidariedade.">
+  <title>ONG Mãos Dadas</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+  <header>
+    <div class="container">
+
+      <input type="checkbox" id="menu-toggle" class="menu-toggle" hidden>
+
+      <div class="header-top">
+        <div class="header-brand">
+          <h1>ONG Mãos Dadas</h1>
+          <p>Transformando vidas através do voluntariado e da solidariedade</p>
+        </div>
+
+        <label for="menu-toggle" class="menu-hamburger" aria-label="Abrir menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </label>
+      </div>
+
+      <nav aria-label="Navegação principal">
+        <ul>
+          <li><a href="#/home" data-rota="home">Início</a></li>
+
+          <li class="has-dropdown">
+            <a href="#/projetos" data-rota="projetos">Nossos Projetos ▾</a>
+            <ul class="dropdown">
+              <li><a href="#/projetos" data-rota="projetos">Campanhas de Doação</a></li>
+              <li><a href="#/projetos" data-rota="projetos">Programa de Voluntariado</a></li>
+            </ul>
+          </li>
+
+          <li><a href="#/cadastro" data-rota="cadastro">Faça Parte / Cadastro</a></li>
+        </ul>
+      </nav>
+
+    </div>
+  </header>
+
+  <main id="app">
+    <!-- Conteúdo injetado dinamicamente pelo JavaScript -->
+  </main>
+
+  <footer>
+    <div class="container">
+      <p><strong>ONG Mãos Dadas</strong> — Todos os direitos reservados — 2026</p>
+      <p>Rua das Flores, 123 — Centro | Telefone: (11) 99999-8888</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+
+  <script src="../js/dados.js"></script>
+  <script src="../js/componentes.js"></script>
+  <script src="../js/templates/home.js"></script>
+  <script src="../js/templates/projetos.js"></script>
+  <script src="../js/templates/cadastro.js"></script>
+  <script src="../js/router.js"></script>
+  <script src="../js/menu.js"></script>
+  <script src="../js/validacao.js"></script>
+  <script src="../js/armazenamento.js"></script>
+  <script src="../js/main.js"></script>
+
+</body>
+</html>
