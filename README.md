@@ -71,3 +71,14 @@ Conventional Commits: feat, fix, docs, style, refactor, chore.
 ## 📄 Licença
 
 Projeto acadêmico — sem licença definida.
+
+## ♿ Acessibilidade
+
+O projeto segue as diretrizes WCAG 2.1 nível AA:
+
+- HTML semântico com landmarks (header, nav, main, footer)
+- Contraste mínimo de 4.5:1 em textos
+- Navegação por teclado com focus-visible
+- Atributos ARIA (aria-label, aria-current, aria-describedby)
+- Imagens com alt descritivo
+- Labels associadas a inputs
